@@ -32,7 +32,6 @@ body {
 #menuToggle {
     display: block;
     position: relative;
-    top: 50px;
     left: 50px;
 
     z-index: 1;
@@ -102,8 +101,7 @@ body {
 }
 
 /*
- * Transform all the slices of hamburger
- * into a crossmark.
+ * Change hamburger color when menu os open
  */
 #menuToggle input:checked~span {
     opacity: 1;
@@ -117,11 +115,11 @@ body {
 #menu {
     position: absolute;
     width: 300px;
-    margin: -100px 0 0 -50px;
+    margin: -100px 0 0 -70px;
     padding: 50px;
     padding-top: 125px;
 
-    background: #ededed;
+    background: white;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
 

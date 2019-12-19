@@ -17,20 +17,11 @@
             <a href="index.php">
                 <li>Inicio</li>
             </a>
-            <a href="#ProductosEnlatados">
-                <li>- Productos Enlatados</li>
-            </a>
-            <a href="#Servicios">
-                <li>- Servicios</li>
-            </a>
-            <a href="#QuienesSomos">
-                <li>- Quienes Somos</li>
-            </a>
             <a href="productos.php">
-                <li>Administrar Productos</li>
+                <li>Tienda</li>
             </a>
             <a href="tienda.php">
-                <li>Tienda</li>
+                <li>Panel Administrativo</li>
             </a>
             <a href="carrito.php">
                 <li><b>Carrito</b></li>

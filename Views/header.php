@@ -1,8 +1,10 @@
 <div class="navbar navbar-dark bg-dark">
+<?php require_once 'Views/menu.php';?>
     <div class="container">
         <a href="#" class="navbar-brand d-flex align-items-center"><strong>VET+</strong></a>
     </div>
 </div>
+
 <div class="text-center py-5">
     <div class="container">
         <div class="row justify-content-center">
