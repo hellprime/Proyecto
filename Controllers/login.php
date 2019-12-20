@@ -1,10 +1,10 @@
 <?php
 
 if ($_POST) {
-    require "Models/user.php";
-    $user = new User();
-    if (!empty($_POST['nombre']) && !empty($_POST['password'])) {
-        $user->login($_POST['nombre'], $_POST['password']);
+    require "Models/usuarios.php";
+    $usuario = new usuario();
+    if (!empty($_POST['usuario']) && !empty($_POST['contrasena'])) {
+        $usuario->login($_POST['usuario'], $_POST['contrasena']);
     }
 }
 require "Views/login.php";
