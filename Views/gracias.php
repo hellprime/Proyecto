@@ -18,7 +18,7 @@
                             <p class="lead">Uno de nuestros especialistas te contactara pronto. Nuestro tiempo de
                                 respuesta es de menos de 24 horas.</p>
                             <button onclick="location.href='index.php'" type="button"
-                                class="btn btn-primary btn-lg">Volver a la pagina de inicio</button>
+                                class="btn btn-primary btn-lg">Volver a inicio</button>
                         </div>
                     </div>
                 </div>

@@ -8,14 +8,12 @@
 </head>
 
 <body>
-
     <div class="navbar navbar-dark bg-dark">
         <?php require_once 'Views/menu.php';?>
         <div class="container">
-            <a href="#" class="navbar-brand d-flex align-items-center"><strong>VET+</strong></a>
+            <a href="index.php" class="navbar-brand d-flex align-items-center"><strong>VET+</strong></a>
         </div>
     </div>
-
     <div class="text-center py-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -33,15 +31,12 @@ $action = (isset($_GET['c'])) ? $_GET['c'] : 'listado';
 require_once __DIR__ . '/Controllers/servicios.php';
 ?>
     </div>
-
     <footer class="py-4">
         <div class="container">
             <p>Creado por Jose Mendieta © Bahamonde | <a href="index.php">Inicio</a></p>
             <p>Proyecto final para la clase de Programacion 4.</p>
         </div>
     </footer>
-
-
 </body>
 
 </html>

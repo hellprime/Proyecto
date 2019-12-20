@@ -1,7 +1,7 @@
 <div class="navbar navbar-dark bg-dark">
-<?php require_once 'Views/menu.php';?>
+    <?php require_once 'Views/menu.php';?>
     <div class="container">
-        <a href="#" class="navbar-brand d-flex align-items-center"><strong>VET+</strong></a>
+        <a href="index.php" class="navbar-brand d-flex align-items-center"><strong>VET+</strong></a>
     </div>
 </div>
 

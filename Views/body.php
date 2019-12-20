@@ -3,7 +3,7 @@
         <div class="text-center mt-3 bg-white">
             <div class="container">
                 <div class="row justify-content-center">
-                        <?php require_once 'Views/slide.php';?>
+                    <?php require_once 'Views/slide.php';?>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-md-4 py-3">
                 <div class="card">
-                    <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">
+                    <img class="card-img-top" src="/img/vetdoctor.jpg">
                     <div class="card-body">
                         <p class="card-text">Dentro de nuestros servicios médicos ofrecemos consulta general, cirugías
                             ambulatorias, contro de vacunas, entre otros</p>
@@ -42,7 +42,7 @@
             </div>
             <div class="col-md-4 py-3">
                 <div class="card">
-                    <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">
+                    <img class="card-img-top" src="/img/vetgrooming.jpg">
                     <div class="card-body">
                         <p class="card-text">Nuestros especialistas te ayudan con el look diario de tus mascotas, así
                             como los estándares internacionales de competencia</p>
@@ -51,7 +51,7 @@
             </div>
             <div class="col-md-4 py-3">
                 <div class="card">
-                    <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">
+                    <img class="card-img-top" src="/img/vethotel.jpg">
                     <div class="card-body">
                         <p class="card-text">Contamos con amplios espacios e infraestructura para que tu mascota se
                             sienta ne casa mientras cuidamos de ella de la mejor manera</p>

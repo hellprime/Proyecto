@@ -17,10 +17,10 @@
             <a href="index.php">
                 <li>Inicio</li>
             </a>
-            <a href="productos.php">
+            <a href="tienda.php">
                 <li>Tienda</li>
             </a>
-            <a href="tienda.php">
+            <a href="login.php">
                 <li>Panel Administrativo</li>
             </a>
             <a href="carrito.php">

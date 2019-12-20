@@ -17,12 +17,12 @@
         }
     ?>
 
-<footer class="py-4">
-    <div class="container">
-        <p>Creado por Jose Mendieta © Bahamonde | <a href="index.php">Inicio</a></p>
-        <p>Proyecto final para la clase de Programacion 4.</p>
-    </div>
-</footer>
+    <footer class="py-4">
+        <div class="container">
+            <p>Creado por Jose Mendieta © Bahamonde | <a href="index.php">Inicio</a></p>
+            <p>Proyecto final para la clase de Programacion 4.</p>
+        </div>
+    </footer>
 
 </body>
 
