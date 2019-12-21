@@ -10,7 +10,7 @@ switch ($action) {
         break;
 
     case 'agregar':
-        if ($_POST['nombre'] && $_POST['detalle'] && $_POST['precio']) {
+        if (isset($_POST['nombre']) && isset($_POST['detalle']) && isset($_POST['precio'])) {
             $servicios = new servicios($_POST['nombre'], $_POST['detalle'], $_POST['precio']);
             if ($servicios->insert($servicios)) {
                 $msg = "Exito al guardar el producto";
@@ -26,7 +26,7 @@ switch ($action) {
         break;
 
     case 'editar':
-        if ($_POST['nombre'] && $_POST['detalle'] && $_POST['precio'] && $_POST['id']) {
+        if (isset($_POST['nombre']) && isset($_POST['detalle']) && isset($_POST['precio']) && isset($_POST['id'])) {
             $servicios = new servicios($_POST['nombre'], $_POST['detalle'], $_POST['precio'], $_POST['id']);
             if ($servicios->update($servicios)) {
                 $msg = "Exito al actualizar el elemento:" . $_POST['nombre'];
@@ -44,7 +44,7 @@ switch ($action) {
 
     case 'ver':
         $servicios = new servicios();
-        if ($_GET['id']) {
+        if (isset($_GET['id'])) {
             $element = $servicios->select($_GET['id'])[0];
             require 'Views/serviciosDetalle.php';
         } else {
@@ -56,7 +56,7 @@ switch ($action) {
 
     case 'borrar':
         $servicios = new servicios();
-        if ($_GET['id']) {
+        if (isset($_GET['id'])) {
             if ($servicios->delete($_GET['id'])) {
                 $msg = "Elemento borrado";
             } else {

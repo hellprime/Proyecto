@@ -12,6 +12,13 @@
 <script>
 window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
 </script>
+<script>
+function calculo(cantidad, precio, inputtext) {
+    // Calculo del subtotal
+    subtotal = precio * cantidad;
+    inputtext.value = subtotal;
+}
+</script>
 
 <style>
 body {

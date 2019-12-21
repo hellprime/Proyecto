@@ -26,6 +26,9 @@
             <a href="carrito.php">
                 <li><b>Carrito</b></li>
             </a>
+            <a href="gracias.php">
+                <li>- Pagina de gracias</li>
+            </a>
         </ul>
     </div>
 </nav>
